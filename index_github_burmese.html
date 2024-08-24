@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="mm">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard by Thura</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .navbar img {
+            height: 50px;
+            margin-right: 20px; /* Adjust spacing between logo and links */
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Banner styling */
+        .banner {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #444;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        /* Footer styling */
+        .footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Language styling here */
+        .language-switch {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 5px;
+            text-align: center;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            top: 10px;
+            right: 10px;
+
+        }
+        .language-switch:hover {
+            background-color: #0056b3;
+        }
+
+        /* Dashboard Links styling */
+        .dashboard-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .dashboard-links a {
+            display: block;
+            margin: 10px 0;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .dashboard-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* iframe styling */
+        .iframe-standard {
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .iframe-covid {
+            width: 800px; /* Set width in pixels */
+            height: 600px; /* Set height in pixels */
+        }
+        .iframe-census {
+            width: 800px; /* Set width in pixels */
+            height: 450px; /* Set height in pixels */
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="images/Thura_Logo.png" alt="Thura Logo">
+    <a href="#home">Home</a>
+    <a href="#about_me">About Me</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#R-Markdown">R-Markdown</a>
+    <a href="#health_education">Health Education</a>
+    <button class="language-switch" onclick="window.location.href='index.html'">Eng</button> <!-- Switch to English -->
+</div>
+
+<div class="content" id="content">
+
+<div id="home">
+    <h1>What You’ll Find Here</h1>
+    <ul style="font-size: 20px;">
+       <li style="margin-bottom: 14px;"><strong>Purpose</strong> The purpose of this website is to propagate the concepts of data dashboards and data analysis. It is also a platform where I can share my the data dashboards and step-by-step analysis of projects with R with you.</li> 
+        <li style="margin-bottom: 14px;"><strong>About Me:</strong> Learn more about my education, experiences, skills, and short bio behind my passion for health informatics and public health.</li>
+        <li style="margin-bottom: 14px;"><strong>Dashboard</strong> Dive into my published dashboards where you can interact and gain insights. Each dashboard represents the significance of data dashboard in providing data-driven insights.</li>
+        <li style="margin-bottom: 14px;"><strong>R-Markdown</strong> Dive into my published R-markdown where you can see step-by-step data analysis including importing, cleaning, and preparing data, statistical analysis, plotting using R and various useful R Packages.</li> 
+        <li style="margin-bottom: 14px;"><strong>Health Education</strong> Stay informed and Learn more health conditions as well as tropical diseases that are prevelance among the population or emerging in the area.</li>     
+    </ul> 
+    <p style="font-size: 16px;">Thank you for visiting, and I hope you find inspiration and insight. Whether you’re interested in collaborating, learning more about my work, or just want to connect, I’d love to hear from you. Enjoy exploring!</p>
+</div>
+
+    
+<div id="about_me" style="display:none; text-align:center;">
+    <h2>About Me</h2>
+    
+    <!-- Profile Picture -->
+    <img src="images/pro_pic.jpg" alt="Profile Picture" style="width:180px; height:180px; border-radius:50%; margin: 20px 0;">
+    
+    <!-- Social Links -->
+    <div>
+        <a href="https://www.linkedin.com/in/aungthurahtoo" target="_blank" style="margin: 0 10px;">
+            <img src="images/linkedin.png" alt="LinkedIn" style="width:30px; height:30px;">
+        </a>
+
+        <a href="https://github.com/AungThuraHtoo" target="_blank" style="margin: 0 10px;">
+            <img src="images/github.png" alt="GitHub" style="width:30px; height:30px;">
+        </a>
+        
+    </div>
+  
+    <!-- About -->
+    <h2>Dr. Aung Thura Htoo - MD, Bs HS, MSc BHI candidate</h2>
+    <div style="margin-top: 20px; text-align:left;">
+    </div>
+
+    <!-- Skills Block -->
+<div style="margin-top: 30px; text-align:left;">
+    <h2 style="text-align:center;">Skills</h2>
+    <div style="text-align:center;">
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">R</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">SQL</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Power BI</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Dashboard</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Analysis</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Database</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Health Informatics</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Looker Studio</span>
+        <span style="display:inline-block; margin:5px; padding:10px; background-color:#f0f0f0; border-radius:5px;">Statistics</span>
+    </div>
+</div>
+
+<!-- Education Block -->
+<div style="margin-top: 30px; text-align:center;">
+    <h2>Education</h2>
+    <div style="padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 10px; display: block; max-width: 300px; margin-left: auto; margin-right: auto;">
+        <strong>Bachelor of Health Science (2022-2024)</strong><br>
+        University of the People<br>
+	CGPA - 3.78/4 (Magna Cum Laude)
+    </div>
+    <div style="padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 10px; display: block; max-width: 300px; margin-left: auto; margin-right: auto;">
+        <strong>Bachelor of Medicine, Bachelor of Surgery (MBBS)</strong><br>
+        University of Medicine, Mandalay<br>
+	Grade B
+    </div>
+    <div style="padding: 10px; border: 1px solid #ddd; border-radius: 5px; display: block; max-width: 300px; margin-left: auto; margin-right: auto;">
+        <strong>Master of Science Candidate in Biomedical and Health Informatics (2024-Present)</strong><br>
+        Mahidol University<br>
+    </div>
+</div>
+
+
+    
+<!-- Experience Block -->
+<div style="margin-top: 30px; text-align:center;">
+    <h2>Experience</h2>
+    <div style="display:inline-block; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px;">
+        <strong>Academic Manager (Medical)</strong><br>
+        Burma Academy (2022-2024)
+    </div>
+    <div style="display:inline-block; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px;">
+        <strong>Medical Practitioner</strong><br>
+        IDP Camps & Border Areas (2020-2022)
+    </div>
+    <div style="display:inline-block; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin: 10px;">
+        <strong>Freelance Data Analyst</strong><br>
+        3+ Years of Experience
+    </div>
+</div>
+
+</div>
+
+
+   <div id="dashboard" style="display:none;">
+    <h1>Choose a Dashboard</h1>
+    <div class="dashboard-links">
+        <div>
+            <a href="#COVID_19_Dashboard">1. COVID 19 Dashboard</a>
+            <img src="images/COVID_19_8con.png" alt="COVID 19 Dashboard Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#Myanmar_Census_2014_Dashboard">2. Myanmar Census 2014 Dashboard</a>
+            <img src="images/MMR_Census_2014.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#dashboard3">3. Dashboard 3</a>
+            <p>Sample text for Dashboard 3.</p>
+        </div>
+        <div>
+            <a href="#dashboard4">4. Dashboard 4</a>
+            <p>Sample text for Dashboard 4.</p>
+           </div>
+       </div>
+    </div>
+
+
+
+ <div id="R-Markdown" style="display:none;">
+    <h1>Choose a R-Markdown</h1>
+     <div class="dashboard-links">
+        <div>
+            <a href="#airbnb_bkk">1. Airbnb - Bangkok Analysis</a>
+            <img src="images/Airbnb_bkk.png" alt="COVID 19 Dashboard Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#who_stat_asean_mmr">2. WHO statistics on ASEAN and Myanmar</a>
+            <img src="images/Health_Stat_WHO_May2024.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#rmarkdown3">3. R-Markdown 3</a>
+            <p>Sample text for R-Markdown 3.</p>
+        </div>
+        <div>
+            <a href="#rmarkdown4">4. R-Markdown 4</a>
+            <p>Sample text for R-Markdown 4.</p>
+           </div>
+         </div>
+    </div>
+
+
+<!-- Health Education Overview -->
+<div id="health_education" style="display:none;">
+    <h1>Health Conditions</h1>
+    <div class="dashboard-links">
+        <div>
+            <a href="#healtheducation1">1. Health Condition 1</a>
+            <img src="images/Airbnb_bkk.png" alt="Health Condition 1 Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#healtheducation2">2. Health Condition 2</a>
+            <img src="images/Health_Stat_WHO_May2024.png" alt="Health Condition 2 Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#healtheducation3">3. Health Condition 3</a>
+            <p>Sample text for Health Condition 3.</p>
+        </div>
+        <div>
+            <a href="#healtheducation4">4. Health Condition 4</a>
+            <p>Sample text for Health Condition 4.</p>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Add individual dashboard pages here -->
+    <div id="COVID_19_Dashboard" style="display:none;">
+        <h1>COVID 19 Dashboard</h1>
+        <p>This dashboard provides insights from COVID-19 data from eight countries: Thailand, Mexico, Japan, Germany, Egypt, Brazil, highlighting the number of confirmed cases, recovered cases, deaths from 22 January 2020 to 16 April 2022. Combination of timeseries chart and score card can ensure better visibility of the trends with number.</p>
+        <iframe class="iframe-standard iframe-covid" src="https://lookerstudio.google.com/embed/reporting/6d890109-00c6-4138-846b-0bdf4232b020/page/HrD4D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
+
+    <!-- Add individual dashboard pages here -->
+    <div id="Myanmar_Census_2014_Dashboard" style="display:none;">
+        <h1>Myanmar Census 2014 Dashboard</h1>
+        <p>This dashboard provides insights from the Myanmar Census 2014, highlighting key demographic, literacy, citizenship, sanitation, and relevant population data across the country. Use the interactive tools below to explore the data and gain a deeper understanding of the population distribution and trends in each region. The source of data can be found in this link: https://www.dop.gov.mm/en/data-and-maps-category/2014-census-data.</p>
+        <iframe class="iframe-standard iframe-census" src="https://lookerstudio.google.com/embed/reporting/9cc389f0-edff-4dcf-8ded-c9b0dcc65580/page/EaM9D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
+
+    <!-- Repeat for other dashboards -->
+
+
+   <!-- Add individual R-Markdown pages here -->
+    <div id="airbnb_bkk" style="display:none;">
+        <h1>Airbnb - Bangkok Analysis</h1>
+        <p>This project includes cleaning the data from Bangkok-Airbnb, loading "listings.csv", and identifying the distribution of room types, availability for short vs long-term rentals, hosts with multiple listings, and interactive plot of neighborhood. The data contains 23651 observations and 18 variables. R and statistics are the main concepts in this project.</p>
+    <!-- Replacing the old iframe with the new Google Drive iframe -->
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;">
+        <iframe src="r_mark/airbnb_Aug2024.html" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+         </div>
+    </div>
+
+    <!-- Add individual R-Markdown pages here -->
+    <div id="who_stat_asean_mmr" style="display:none;">
+      <h1>WHO statistics on ASEAN and Myanmar</h1>
+      <p>This project includes analyzing data from the four datasets centered around WHO health statistics data, including country codes and indicators. Mostly, health statistics from ASEAN and their indicators are analyzed and identified using intermediate R, including writing functions.</p>
+      <!-- Embedding the PDF from GitHub -->
+      <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;">
+      <iframe src="r_mark/Health_Stat_WHO_May2024.html" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+        
+    </div>
+</div>
+
+    <!-- Repeat for other R-Markdowns -->
+
+
+<!-- Add Health Condition Pages Here -->
+<div id="healtheducation1" style="display:none;">
+  <h1>Health Condition 1</h1>
+  
+  <!-- Block for adding a photo -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <img src="path/to/your/photo1.jpg" alt="Health Condition 1 Photo" style="max-width: 100%; height: auto;">
+  </div>
+  
+  <!-- Health Education Paragraph -->
+  <p>This section provides detailed information and analysis on Health Condition 1, including data and insights relevant to this condition.</p>
+</div>
+
+
+
+    <!-- Repeat for other Health Conditions -->
+
+
+</div>
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:data@thura.info">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+<script>
+    function showPage(page) {
+        // Hide all sections
+        document.querySelectorAll('.content > div').forEach(div => div.style.display = 'none');
+        
+        // Show the selected section
+        const section = document.getElementById(page);
+        if (section) {
+            section.style.display = 'block';
+        }
+    }
+
+    // Function to handle hash changes
+    function handleHashChange() {
+        const hash = window.location.hash.substring(1); // Remove '#' from the hash
+        showPage(hash || 'home'); // Show the section based on hash or default to home
+    }
+
+    // Initialize to show the page based on hash or default to home
+    document.addEventListener('DOMContentLoaded', function() {
+        handleHashChange();
+        window.addEventListener('hashchange', handleHashChange);
+    });
+</script>
+
+</body>
+</html>
