@@ -134,6 +134,10 @@
             width: 800px; /* Set width in pixels */
             height: 450px; /* Set height in pixels */
         }
+	.iframe-bkkairbnb {
+            width: 800px; /* Set width in pixels */
+            height: 450px; /* Set height in pixels */
+        }    
     </style>
 </head>
 <body>
@@ -255,8 +259,8 @@
             <img src="images/MMR_Census_2014.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
         </div>
         <div>
-            <a href="#dashboard3">3. Dashboard 3</a>
-            <p>Sample text for Dashboard 3.</p>
+            <a href="#Bangkok_Airbnb_Dashboard">3. Bangkok Airbnb Dashboard</a>
+            <img src="images/BKK_Airbnb_2024.png" alt="Bangkok Airbnb 2024 Dashboard Image" style="width:250px;height:auto;">
         </div>
         <div>
             <a href="#dashboard4">4. Dashboard 4</a>
@@ -329,6 +333,12 @@
         <iframe class="iframe-standard iframe-census" src="https://lookerstudio.google.com/embed/reporting/9cc389f0-edff-4dcf-8ded-c9b0dcc65580/page/EaM9D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
     </div>
 
+    <!-- Add individual dashboard pages here -->
+    <div id="Bangkok_Airbnb_Dashboard" style="display:none;">
+        <h1>Bangkok Airbnb Dashboard</h1>
+        <p>This dashboard provides insights from listing dataset of Airbnb - Bangkok, highlighting the distribution of room types, availability for rentals, hosts with multiple listings, and average price in each neighborhood. The dataset contains 23651 observations and 18 variables. One can check the availability and minimum nights as well as the price range in each neighborhood for each room type for the rental. The source of data can be found in this link: https://insideairbnb.com/get-the-data/.</p>
+        <iframe class="iframe-standard iframe-bkkairbnb" src="https://lookerstudio.google.com/embed/reporting/bef33937-deac-4eae-a794-38ab10ebf241/page/heu9D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
 
 
     <!-- Repeat for other dashboards -->
