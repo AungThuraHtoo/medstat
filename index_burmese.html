@@ -143,6 +143,14 @@
             width: 800px; /* Set width in pixels */
             height: 450px; /* Set height in pixels */
         }
+        .iframe-vacunicef1asean24 {
+            width: 800px; /* Set width in pixels */
+            height: 450px; /* Set height in pixels */
+        }
+        .iframe-vacunicef2asean24 {
+            width: 800px; /* Set width in pixels */
+            height: 450px; /* Set height in pixels */
+        }
     </style>
 </head>
 <body>
@@ -253,30 +261,85 @@
 
 
    <div id="dashboard" style="display:none;">
-    <h1>Choose a Dashboard</h1>
-    <div class="dashboard-links">
-        <div>
-            <a href="#COVID_19_Dashboard">1. COVID 19 Dashboard</a>
-            <img src="images/COVID_19_8con.png" alt="COVID 19 Dashboard Image" style="width:250px;height:auto;">
+    <h1 style="text-align: center;">Choose a Dashboard</h1>
+    <div class="dashboard-links" style="display: flex; flex-direction: column; align-items: center;">
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#COVID_19_Dashboard" style="font-weight: bold; text-decoration: none; color: inherit;">1. COVID 19 Dashboard</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <a href="#COVID_19_Dashboard">
+                    <img src="images/COVID_19_8con.png" alt="COVID 19 Dashboard Image" style="width:250px;height:auto;">
+                </a>
+                <div style="flex: 1; max-width: 250px;">
+                    <p style="text-align: left;">An overview of the COVID-19 pandemic's impact, cases, and vaccination data.</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="#Myanmar_Census_2014_Dashboard">2. Myanmar Census 2014 Dashboard</a>
-            <img src="images/MMR_Census_2014.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
+        <!-- Repeat the structure for other dashboards -->
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#Myanmar_Census_2014_Dashboard" style="font-weight: bold; text-decoration: none; color: inherit;">2. Myanmar Census 2014 Dashboard</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <a href="#Myanmar_Census_2014_Dashboard">
+                    <img src="images/MMR_Census_2014.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
+                </a>
+                <div style="flex: 1; max-width: 250px;">
+                    <p style="text-align: left;">Detailed statistics and demographic data from Myanmar's 2014 census.</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="#Bangkok_Airbnb_Dashboard">3. Bangkok Airbnb Dashboard</a>
-            <img src="images/BKK_Airbnb_2024.png" alt="Bangkok Airbnb 2024 Dashboard Image" style="width:250px;height:auto;">
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#WHO_Stat_ASEAN_2024_Dashboard" style="font-weight: bold; text-decoration: none; color: inherit;">3. Health Indicator ASEAN Dashboard</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <a href="#WHO_Stat_ASEAN_2024_Dashboard">
+                    <img src="images/WHO_Stat_ASEAN_2024.png" alt="Health Indicator ASEAN 2024 Dashboard Image" style="width:250px;height:auto;">
+                </a>
+                <div style="flex: 1; max-width: 250px;">
+                    <p style="text-align: left;">Health indicators and statistics across ASEAN countries for 2024.</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="#WHO_Stat_ASEAN_2024_Dashboard">4. Health Indicator ASEAN Dashboard</a>
-            <img src="images/WHO_Stat_ASEAN_2024.png" alt="Bangkok Airbnb 2024 Dashboard Image" style="width:250px;height:auto;">
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#Vac_Unicef_ASEAN_Dashboard" style="font-weight: bold; text-decoration: none; color: inherit;">4. Vaccine Coverage ASEAN Dashboard</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <a href="#Vac_Unicef_ASEAN_Dashboard">
+                    <img src="images/Vacc_Unicef_ASEAN.png" alt="Vaccine Coverage ASEAN Dashboard Image" style="width:250px;height:auto;">
+                </a>
+                <div style="flex: 1; max-width: 250px;">
+                    <p style="text-align: left;">Vaccine coverage data for ASEAN countries, with a focus on UNICEF efforts.</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="#dashboard5">5. Dashboard 5</a>
-            <p>Sample text for Dashboard 5.</p>
-           </div>
-       </div>
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#Bangkok_Airbnb_Dashboard" style="font-weight: bold; text-decoration: none; color: inherit;">5. Bangkok Airbnb Dashboard</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <a href="#Bangkok_Airbnb_Dashboard">
+                    <img src="images/BKK_Airbnb_2024.png" alt="Bangkok Airbnb 2024 Dashboard Image" style="width:250px;height:auto;">
+                </a>
+                <div style="flex: 1; max-width: 250px;">
+                    <p style="text-align: left;">Insights into Airbnb listings, prices, and trends in Bangkok for 2024.</p>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#dashboard6" style="font-weight: bold; text-decoration: none; color: inherit;">6. Dashboard 6</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <p style="text-align: left;">Sample text for Dashboard 6.</p>
+            </div>
+        </div>
     </div>
+</div>
+
 
 
     <div id="R-Markdown" style="display:none;">
@@ -354,6 +417,14 @@
         <h1>Health Indicator ASEAN Dashboard</h1>
         <p>This dashboard provides insights on the health indicators and the comparison among ASEAN countries: Brunei, Cambodia, Indonesia, Loas, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Viet Nam. A total of 56 indicators were included in this dashboard, displaying their average number, first and last date of the collected data. The audience can choose indicators, country, year, as well as sex or age group of their interest. The data source is from https://www.who.int/data/gho/publications/world-health-statistics, https://data.who.int/countries/104, or https://www.who.int/data/gho.</p>
         <iframe class="iframe-standard iframe-whostatasean24" src="https://lookerstudio.google.com/embed/reporting/e13d42a8-324e-40df-a040-b14a99b4126c/page/G839D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
+
+    <!-- Add individual dashboard pages here -->
+    <div id="Vac_Unicef_ASEAN_Dashboard" style="display:none;">
+        <h1>Vaccine Coverage ASEAN Dashboard</h1>
+        <p>These dashboards provide insights on the coverage of 14 different vaccines and the comparison among ASEAN countries: Brunei, Cambodia, Indonesia, Loas, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Viet Nam. A total of 14 vaccine types were included in this dashboard, displaying their average number, first and last date of the collected data. The audience can choose the type of vaccine, ASEAN country, and specific year of their interest. The second dashboard highlights the trend of vaccine coverage from the year of 2000 to the latest year. The data source is from https://data.unicef.org/resources/resource-type/datasets/.</p>
+        <iframe class="iframe-standard iframe-vacunicef1asean24" src="https://lookerstudio.google.com/embed/reporting/378e6aea-fb68-4575-81bf-96ee7c163f79/page/D8CAE" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe class="iframe-standard iframe-vacunicef2asean24" src="https://lookerstudio.google.com/embed/reporting/378e6aea-fb68-4575-81bf-96ee7c163f79/page/p_zwt7bdojkd" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
     </div>
 
     <!-- Repeat for other dashboards -->
