@@ -151,6 +151,14 @@
             width: 800px; /* Set width in pixels */
             height: 450px; /* Set height in pixels */
         }
+	.iframe-wdi1asean24 {
+            width: 800px; /* Set width in pixels */
+            height: 450px; /* Set height in pixels */
+        }
+        .iframe-wdi2asean24 {
+            width: 800px; /* Set width in pixels */
+            height: 450px; /* Set height in pixels */
+        }
     </style>
 </head>
 <body>
@@ -329,12 +337,25 @@
                 </div>
             </div>
         </div>
-        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+	<div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
             <div style="text-align: center; margin-bottom: 10px;">
-                <a href="#dashboard6" style="font-weight: bold; text-decoration: none; color: inherit;">6. Dashboard 6</a>
+                <a href="#WDI_ASEAN_Dashboard" style="font-weight: bold; text-decoration: none; color: inherit;">6. WDI Statistics ASEAN Dashboard</a>
             </div>
             <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
-                <p style="text-align: left;">Sample text for Dashboard 6.</p>
+                <a href="#WDI_ASEAN_Dashboard">
+                    <img src="images/WDI_ASEAN_2024.png" alt="WDI Statistics ASEAN Dashboard Image" style="width:250px;height:auto;">
+                </a>
+                <div style="flex: 1; max-width: 250px;">
+                    <p style="text-align: left;">Selected WDI statistics for ASEAN countries to gain insights on the development.</p>
+                </div>
+            </div>
+        </div>
+        <div style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 10px;">
+                <a href="#dashboard7" style="font-weight: bold; text-decoration: none; color: inherit;">7. Dashboard 7</a>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+                <p style="text-align: left;">Sample text for Dashboard 7.</p>
             </div>
         </div>
     </div>
@@ -425,6 +446,14 @@
         <p>These dashboards provide insights on the coverage of 14 different vaccines and the comparison among ASEAN countries: Brunei, Cambodia, Indonesia, Loas, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Viet Nam. A total of 14 vaccine types were included in this dashboard, displaying their average number, first and last date of the collected data. The audience can choose the type of vaccine, ASEAN country, and specific year of their interest. The second dashboard highlights the trend of vaccine coverage from the year of 2000 to the latest year. The data source is from https://data.unicef.org/resources/resource-type/datasets/.</p>
         <iframe class="iframe-standard iframe-vacunicef1asean24" src="https://lookerstudio.google.com/embed/reporting/378e6aea-fb68-4575-81bf-96ee7c163f79/page/D8CAE" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
         <iframe class="iframe-standard iframe-vacunicef2asean24" src="https://lookerstudio.google.com/embed/reporting/378e6aea-fb68-4575-81bf-96ee7c163f79/page/p_zwt7bdojkd" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+    </div>
+
+    <!-- Add individual dashboard pages here -->
+    <div id="WDI_ASEAN_Dashboard" style="display:none;">
+        <h1>WDI Statistics ASEAN Dashboard</h1>
+        <p>These dashboards provide insights on the selected world bank development indicators, and their comparison among ASEAN countries: Brunei, Cambodia, Indonesia, Loas, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Viet Nam. A total of 26 indicators were included in this dashboard, displaying their average number, first and last date of the collected data. The audience can choose the type of indicators, ASEAN country, and specific year of their interest. The second dashboard highlights the trend of vaccine coverage from the year of 1960 to the latest year. The data source is from https://databank.worldbank.org/source/world-development-indicators#.</p>
+        <iframe class="iframe-standard iframe-wdi1asean24" src="https://lookerstudio.google.com/embed/reporting/61844155-af70-422e-93e0-e715d51a06c5/page/D8CAE" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe class="iframe-standard iframe-wdi2asean24" src="https://lookerstudio.google.com/embed/reporting/61844155-af70-422e-93e0-e715d51a06c5/page/p_zwt7bdojkd" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
     </div>
 
     <!-- Repeat for other dashboards -->
