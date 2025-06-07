@@ -168,7 +168,6 @@
     <a href="#home">Home</a>
     <a href="#about_me">About Author</a>
     <a href="#dashboard">Dashboard</a>
-    <a href="#R-Markdown">R-Markdown</a>
     <a href="#data-project">Data Project</a>
     <a href="#health_education">Health Education</a>
     <button class="language-switch" onclick="window.location.href='index.html'">Eng</button> <!-- Switch to English -->
@@ -269,6 +268,8 @@
 </div>
 
 
+<!-- Dashboard Overview -->
+	
    <div id="dashboard" style="display:none;">
     <h1 style="text-align: center;">Choose a Dashboard</h1>
     <div class="dashboard-links" style="display: flex; flex-direction: column; align-items: center;">
@@ -367,18 +368,7 @@
     <div id="R-Markdown" style="display:none;">
     <h1>Choose a R-Markdown</h1>
      <div class="dashboard-links">
-        <div>
-            <a href="#airbnb_bkk">1. Airbnb - Bangkok Analysis</a>
-            <img src="images/Airbnb_bkk.png" alt="COVID 19 Dashboard Image" style="width:250px;height:auto;">
-        </div>
-        <div>
-            <a href="#who_stat_asean_mmr">2. WHO statistics on ASEAN and Myanmar</a>
-            <img src="images/Health_Stat_WHO_May2024.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
-        </div>
-        <div>
-            <a href="#covid_19_impact_US_hospitals">3. COVID_19_Impact_Hospital_Facility</a>
-            <img src="images/COVID_19_Impact.png" alt="COVID_19 Impact Image" style="width:250px;height:auto;">
-        </div>
+       
         <div>
             <a href="#rmarkdown4">4. R-Markdown 4</a>
             <p>Sample text for R-Markdown 4.</p>
@@ -389,34 +379,36 @@
 
 
 
-<!-- Data Project -->
+<!-- Data Project Overview -->
     <div id="data-project" style="display:none;">
     <h1>Choose a Data Project</h1>
      <div class="dashboard-links">
-        <div class="dashboard-links">
+         <div>
+            <a href="#airbnb_bkk">1. Airbnb - Bangkok Analysis (R-language)</a>
+            <img src="images/Airbnb_bkk.png" alt="COVID 19 Dashboard Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#who_stat_asean_mmr">2. WHO statistics on ASEAN and Myanmar (R-language)</a>
+            <img src="images/Health_Stat_WHO_May2024.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
+        </div>
+        <div>
+            <a href="#covid_19_impact_US_hospitals">3. COVID_19_Impact_Hospital_Facility (R-language)</a>
+            <img src="images/COVID_19_Impact.png" alt="COVID_19 Impact Image" style="width:250px;height:auto;">
+        </div>
         <div>
     <a href="https://www.datacamp.com/datalab/w/4d771fe4-2eb6-48cb-8449-5513520c9c77/edit#526d1406-8b28-4310-96d7-cd9d299b28bc" target="_blank">
-        1. Flight Duration Trends Analysis (R-language)
+        4. Flight Duration Trends Analysis (R-language)
     </a>
     <img src="images/flight_duration.png" alt="Flight Duration" style="width:250px;height:auto;">
         </div>
         <div>
     <a href="https://www.datacamp.com/datalab/w/c7e454b0-2305-43cf-8067-bed62faf35a7/edit" target="_blank">
-        2. Noble Prize Winners Analysis (R-language & SQL)
+        5. Noble Prize Winners Analysis (R-language & SQL)
     </a>
     <img src="images/nobel.png" alt="nobel" style="width:250px;height:auto;">
         </div>
-        <div>
-            <a href="#covid_19_impact_US_hospitals">3. COVID_19_Impact_Hospital_Facility</a>
-            <img src="images/COVID_19_Impact.png" alt="Myanmar Census 2014 Dashboard Image" style="width:250px;height:auto;">
-        </div>
-        <div>
-            <a href="#rmarkdown4">4. R-Markdown 4</a>
-            <p>Sample text for R-Markdown 4.</p>
-           </div>
          </div>
     </div>
-</div>
 	    
 <!-- Health Education Overview -->
 <div id="health_education" style="display:none;">
@@ -444,7 +436,8 @@
 
 	
 
-    <!-- Add individual dashboard pages here -->
+<!-- Add individual dashboard pages here -->
+	
     <div id="COVID_19_Dashboard" style="display:none;">
         <h1>COVID 19 Dashboard</h1>
         <p>This dashboard provides insights from COVID-19 data from eight countries: Thailand, Mexico, Japan, Germany, Egypt, Brazil, highlighting the number of confirmed cases, recovered cases, deaths from 22 January 2020 to 16 April 2022. Combination of timeseries chart and score card can ensure better visibility of the trends with number.</p>
@@ -491,7 +484,8 @@
     <!-- Repeat for other dashboards -->
 
 
-<!-- Add individual R-Markdown pages here -->
+<!-- Add individual Data Project pages here -->
+	
     <div id="airbnb_bkk" style="display:none;">
         <h1>Airbnb - Bangkok Analysis</h1>
         <p>This project includes cleaning the data from Bangkok-Airbnb, loading "listings.csv", and identifying the distribution of room types, availability for short vs long-term rentals, hosts with multiple listings, and interactive plot of neighborhood. The data contains 23651 observations and 18 variables. R and statistics are the main concepts in this project.</p>
@@ -501,7 +495,7 @@
          </div>
     </div>
 
-    <!-- Add individual R-Markdown pages here -->
+    <!-- Add individual Data Project pages here -->
     <div id="who_stat_asean_mmr" style="display:none;">
       <h1>WHO statistics on ASEAN and Myanmar</h1>
       <p>This project includes analyzing data from the four datasets centered around WHO health statistics data, including country codes and indicators. Mostly, health statistics from ASEAN and their indicators are analyzed and identified using intermediate R, including writing functions.</p>
@@ -512,7 +506,7 @@
     </div>
 </div>
 
-	<!-- Add individual R-Markdown pages here -->
+	<!-- Add individual Data Project pages here -->
     <div id="covid_19_impact_US_hospitals" style="display:none;">
       <h1>COVID_19 Impact on US Hospital Facilities</h1>
       <p>This project includes identifying insights related to the impact of COVID-19 on patients (both adult and pediatric) in ICU and in-patient facility using the data provided by U.S. Department of Health & Human Services on healthdata.gov. It contains 1,045,406 observations and 128 variables.</p>
@@ -524,10 +518,11 @@
 </div>
 
 
-    <!-- Repeat for other R-Markdowns -->
+    <!-- Repeat for other Data Project -->
 
 	
 <!-- Add Health Condition Pages Here -->
+	
 <div id="healtheducation1" style="display:none;">
   <h1>Health Condition 1</h1>
   
