@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard by Thura</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="images/Thura_Logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- ✅ Navbar Section -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/Thura_Logo.png" alt="Thura Logo" />
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="data-projects.html">Data Projects</a>
+      <a href="health-education.html">Health Education</a>
+    </div>
+    <button
+      class="language-switch"
+      onclick="window.location.href='index_burmese.html'"
+    >
+      မြန်မာ
+    </button>
+  </div>
+
+
+ <!-- ===================== Vaccine Coverage ASEAN Dashboard SECTION ===================== -->
+<section id="Vac_Unicef_ASEAN_Dashboard" style="padding: 40px 20px; max-width: 1000px; margin: auto; font-family: 'Segoe UI', Tahoma, sans-serif; color:#333;">
+
+  <h1 style="text-align: center; color:#004080; font-size:2.2em; margin-bottom: 20px;"> Vaccine Coverage ASEAN Dashboard</h1>
+
+  <p style="text-align:center; font-size:16px; line-height:1.6; max-width:800px; margin:0 auto 30px auto; color:#555;">
+    These dashboards provide insights on the coverage of 14 different vaccines and the comparison among ASEAN countries: Brunei, Cambodia, Indonesia, Loas, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Viet Nam. A total of 14 vaccine types were included in this dashboard, displaying their average number, first and last date of the collected data. The audience can choose the type of vaccine, ASEAN country, and specific year of their interest. The second dashboard highlights the trend of vaccine coverage from the year of 2000 to the latest year. The data source is from https://data.unicef.org/resources/resource-type/datasets/.
+  </p>
+
+  <div style="display:flex; flex-direction:column; align-items:center; gap:20px;">
+    <iframe class="iframe-standard iframe-vacunicef1asean24" 
+            src="https://lookerstudio.google.com/embed/reporting/378e6aea-fb68-4575-81bf-96ee7c163f79/page/D8CAE" 
+            frameborder="0" allowfullscreen 
+            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+            style="width:100%; max-width:900px; height:450px; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s;">
+    </iframe>
+    <iframe class="iframe-standard iframe-vacunicef2asean24" 
+            src="https://lookerstudio.google.com/embed/reporting/378e6aea-fb68-4575-81bf-96ee7c163f79/page/p_zwt7bdojkd" 
+            frameborder="0" allowfullscreen 
+            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+            style="width:100%; max-width:900px; height:450px; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s;">
+    </iframe>
+</div>
+
+
+</section>
+<!-- ===================== END OF Vaccine Coverage ASEAN Dashboard SECTION ===================== -->
+
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:data@thura.info">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+</body>
+</html>

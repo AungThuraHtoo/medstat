@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard by Thura</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="images/Thura_Logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- ✅ Navbar Section -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/Thura_Logo.png" alt="Thura Logo" />
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="data-projects.html">Data Projects</a>
+      <a href="health-education.html">Health Education</a>
+    </div>
+    <button
+      class="language-switch"
+      onclick="window.location.href='index_burmese.html'"
+    >
+      မြန်မာ
+    </button>
+  </div>
+
+
+ <!-- ===================== Health Indicator ASEAN Dashboard SECTION ===================== -->
+<section id="WHO_Stat_ASEAN_2024_Dashboard" style="padding: 40px 20px; max-width: 1000px; margin: auto; font-family: 'Segoe UI', Tahoma, sans-serif; color:#333;">
+
+  <h1 style="text-align: center; color:#004080; font-size:2.2em; margin-bottom: 20px;"> Health Indicator ASEAN Dashboard</h1>
+
+  <p style="text-align:center; font-size:16px; line-height:1.6; max-width:800px; margin:0 auto 30px auto; color:#555;">
+    This dashboard provides insights on the health indicators and the comparison among ASEAN countries: Brunei, Cambodia, Indonesia, Loas, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Viet Nam. A total of 56 indicators were included in this dashboard, displaying their average number, first and last date of the collected data. The audience can choose indicators, country, year, as well as sex or age group of their interest. The data source is from https://www.who.int/data/gho/publications/world-health-statistics, https://data.who.int/countries/104, or https://www.who.int/data/gho.
+  </p>
+
+  <div style="display:flex; justify-content:center;">
+    <iframe class="iframe-standard iframe-whostatasean24" src="https://lookerstudio.google.com/embed/reporting/e13d42a8-324e-40df-a040-b14a99b4126c/page/G839D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+            style="width:100%; max-width:900px; height:450px; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s;">
+    </iframe>
+  </div>
+
+</section>
+<!-- ===================== END OF Health Indicator ASEAN Dashboard SECTION ===================== -->
+
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:data@thura.info">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+</body>
+</html>

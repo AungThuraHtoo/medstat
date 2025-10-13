@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard by Thura</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="images/Thura_Logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- ✅ Navbar Section -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/Thura_Logo.png" alt="Thura Logo" />
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="data-projects.html">Data Projects</a>
+      <a href="health-education.html">Health Education</a>
+    </div>
+    <button
+      class="language-switch"
+      onclick="window.location.href='index_burmese.html'"
+    >
+      မြန်မာ
+    </button>
+  </div>
+
+
+ <!-- ===================== COVID-19 DASHBOARD SECTION ===================== -->
+<section id="COVID_19_Dashboard" style="padding: 40px 20px; max-width: 1000px; margin: auto; font-family: 'Segoe UI', Tahoma, sans-serif; color:#333;">
+
+  <h1 style="text-align: center; color:#004080; font-size:2.2em; margin-bottom: 20px;"> COVID-19 Dashboard</h1>
+
+  <p style="text-align:center; font-size:16px; line-height:1.6; max-width:800px; margin:0 auto 30px auto; color:#555;">
+    Explore COVID-19 data from eight countries: Thailand, Mexico, Japan, Germany, Egypt, Brazil. 
+    This dashboard highlights confirmed cases, recoveries, and deaths from 22 January 2020 to 16 April 2022. 
+    Interactive visualizations combine timeseries charts and scorecards for clear trends.
+  </p>
+
+  <div style="display:flex; justify-content:center;">
+    <iframe class="iframe-standard iframe-covid" 
+            src="https://lookerstudio.google.com/embed/reporting/6d890109-00c6-4138-846b-0bdf4232b020/page/HrD4D" 
+            frameborder="0" 
+            allowfullscreen 
+            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+            style="width:100%; max-width:900px; height:600px; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s;">
+    </iframe>
+  </div>
+
+</section>
+<!-- ===================== END OF COVID-19 DASHBOARD SECTION ===================== -->
+
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:data@thura.info">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+</body>
+</html>

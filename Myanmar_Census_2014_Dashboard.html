@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard by Thura</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="images/Thura_Logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- ✅ Navbar Section -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/Thura_Logo.png" alt="Thura Logo" />
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="data-projects.html">Data Projects</a>
+      <a href="health-education.html">Health Education</a>
+    </div>
+    <button
+      class="language-switch"
+      onclick="window.location.href='index_burmese.html'"
+    >
+      မြန်မာ
+    </button>
+  </div>
+
+
+ <!-- ===================== Myanmar Census 2014 DASHBOARD SECTION ===================== -->
+<section id="Myanmar_Census_2014_Dashboard" style="padding: 40px 20px; max-width: 1000px; margin: auto; font-family: 'Segoe UI', Tahoma, sans-serif; color:#333;">
+
+  <h1 style="text-align: center; color:#004080; font-size:2.2em; margin-bottom: 20px;"> Myanmar Census 2014 Dashboard</h1>
+
+  <p style="text-align:center; font-size:16px; line-height:1.6; max-width:800px; margin:0 auto 30px auto; color:#555;">
+    This dashboard provides insights from the Myanmar Census 2014, highlighting key demographic, literacy, citizenship, sanitation, and relevant population data across the country. Use the interactive tools below to explore the data and gain a deeper understanding of the population distribution and trends in each region. The source of data can be found in this link: https://www.dop.gov.mm/en/data-and-maps-category/2014-census-data.
+  </p>
+
+  <div style="display:flex; justify-content:center;">
+    <iframe class="iframe-standard iframe-census" src="https://lookerstudio.google.com/embed/reporting/9cc389f0-edff-4dcf-8ded-c9b0dcc65580/page/EaM9D" frameborder="0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+            style="width:100%; max-width:900px; height:450px; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s;">
+    </iframe>
+  </div>
+
+</section>
+<!-- ===================== END OF Myanmar Census 2014 Dashboard SECTION ===================== -->
+
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:data@thura.info">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+</body>
+</html>

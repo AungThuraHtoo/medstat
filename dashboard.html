@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard by Thura</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="images/Thura_Logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- ✅ Navbar Section -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/Thura_Logo.png" alt="Thura Logo" />
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="data-projects.html">Data Projects</a>
+      <a href="health-education.html">Health Education</a>
+    </div>
+    <button
+      class="language-switch"
+      onclick="window.location.href='index_burmese.html'"
+    >
+      မြန်မာ
+    </button>
+  </div>
+
+
+ <!-- ======== DASHBOARD SECTION ======== -->
+<div id="dashboard">
+  <h1 style="text-align: center; margin-bottom: 40px;">📊 Data Analysis Dashboards</h1>
+
+  <!-- ======== DASHBOARD GRID CONTAINER ======== -->
+  <div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px;
+  ">
+
+    <!-- ======== DASHBOARD CARD TEMPLATE ======== -->
+    <!-- Each card below represents one dashboard -->
+
+    <!-- Dashboard 1 -->
+    <div style="
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+    onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)'">
+
+      <!-- Representative Image (use your own image) -->
+      <img src="images/COVID_19_8con.png"
+           alt="COVID-19 Dashboard"
+           style="width:100%; height:200px; object-fit:cover;">
+
+      <!-- Card Content -->
+      <div style="padding: 15px 20px;">
+        <h3 style="color:#007bff;">COVID-19 Analytics Dashboard</h3>
+        <p style="font-size: 14px;">Interactive visualization showing case trends, vaccine coverage, and key pandemic metrics.</p>
+        <a href="COVID_19_Dashboard.html" style="
+          display:inline-block;
+          margin-top:10px;
+          padding:8px 16px;
+          background-color:#007bff;
+          color:white;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+        ">View Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Dashboard 2 -->
+    <div style="
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+    onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)'">
+
+      <img src="images/MMR_Census_2014.png"
+           alt="Myanmar Census Dashboard"
+           style="width:100%; height:200px; object-fit:cover;">
+
+      <div style="padding: 15px 20px;">
+        <h3 style="color:#007bff;">Myanmar Census 2014 Dashboard</h3>
+        <p style="font-size: 14px;">Demographic and population insights from the 2014 Myanmar census, visualized interactively.</p>
+        <a href="Myanmar_Census_2014_Dashboard.html" style="
+          display:inline-block;
+          margin-top:10px;
+          padding:8px 16px;
+          background-color:#007bff;
+          color:white;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+        ">View Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Dashboard 3 -->
+    <div style="
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+    onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)'">
+
+      <img src="images/WHO_Stat_ASEAN_2024.png"
+           alt="ASEAN Health Indicators"
+           style="width:100%; height:200px; object-fit:cover;">
+
+      <div style="padding: 15px 20px;">
+        <h3 style="color:#007bff;">ASEAN Health Indicator Dashboard</h3>
+        <p style="font-size: 14px;">Comparative analysis of regional health data across ASEAN nations (WHO 2024).</p>
+        <a href="WHO_Stat_ASEAN_2024_Dashboard.html" style="
+          display:inline-block;
+          margin-top:10px;
+          padding:8px 16px;
+          background-color:#007bff;
+          color:white;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+        ">View Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Dashboard 4 -->
+    <div style="
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+    onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)'">
+
+      <img src="images/Vacc_Unicef_ASEAN.png"
+           alt="Vaccine Coverage ASEAN"
+           style="width:100%; height:200px; object-fit:cover;">
+
+      <div style="padding: 15px 20px;">
+        <h3 style="color:#007bff;">Vaccine Coverage ASEAN Dashboard</h3>
+        <p style="font-size: 14px;">UNICEF-supported data visualizing immunization coverage across ASEAN nations.</p>
+        <a href="Vac_Unicef_ASEAN_Dashboard.html" style="
+          display:inline-block;
+          margin-top:10px;
+          padding:8px 16px;
+          background-color:#007bff;
+          color:white;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+        ">View Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Dashboard 5 -->
+    <div style="
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+    onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)'">
+
+      <img src="images/BKK_Airbnb_2024.png"
+           alt="Bangkok Airbnb Dashboard"
+           style="width:100%; height:200px; object-fit:cover;">
+
+      <div style="padding: 15px 20px;">
+        <h3 style="color:#007bff;">Bangkok Airbnb Market Dashboard</h3>
+        <p style="font-size: 14px;">Trends in Airbnb listings, prices, and occupancy across Bangkok (2024 dataset).</p>
+        <a href="Bangkok_Airbnb_Dashboard.html" style="
+          display:inline-block;
+          margin-top:10px;
+          padding:8px 16px;
+          background-color:#007bff;
+          color:white;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+        ">View Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Dashboard 6 -->
+    <div style="
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 350px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+    onmouseout="this.style.transform=''; this.style.boxShadow='0 4px 15px rgba(0,0,0,0.1)'">
+
+      <img src="images/WDI_ASEAN_2024.png"
+           alt="WDI_ASEAN_Dashboard"
+           style="width:100%; height:200px; object-fit:cover;">
+
+      <div style="padding: 15px 20px;">
+        <h3 style="color:#007bff;">WDI Statistics ASEAN Dashboard</h3>
+        <p style="font-size: 14px;">Trends of the selected world bank development indicators from WDI statistics in ASEAN 2024.</p>
+        <a href="WDI_ASEAN_Dashboard.html" style="
+          display:inline-block;
+          margin-top:10px;
+          padding:8px 16px;
+          background-color:#007bff;
+          color:white;
+          border-radius:8px;
+          text-decoration:none;
+          font-weight:bold;
+        ">View Dashboard</a>
+      </div>
+    </div>
+
+  </div> 
+   </div>
+<!-- ===================== END OF DASHBOARD GRID ===================== -->
+
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:data@thura.info">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+</body>
+</html>
