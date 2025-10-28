@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard by Thura</title>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="icon" href="images/Thura_Logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- ✅ Navbar Section -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/Thura_Logo.png" alt="Thura Logo" />
+      <a href="index.html">Home</a>
+      <a href="about_me.html">About Me</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="data-projects.html">Data Projects</a>
+      <a href="health-education.html">Health Education</a>
+    </div>
+    <button
+      class="language-switch"
+      onclick="window.location.href='index_burmese.html'"
+    >
+      မြန်မာ
+    </button>
+  </div>
+
+
+ <!-- ===================== Diabetes Classification ===================== -->
+
+<div id="covid_19_impact_US_hospitals" text-align:center; margin-top:40px;>
+  <h1 style="text-align: center; color:#004080; font-size:2.2em; margin-bottom: 20px;"> Diabetes Classification Using Random Forest</h1>
+  <p style="text-align:center; font-size:16px; line-height:1.6; max-width:800px; margin:0 auto 30px auto; color:#555;">
+    Diabetes is one of the major non-communicable diseases that has been a persistent public health burden across the world. According to Diabetes Atlas 2025 report, nearly 600 million adults are living with diabetes worldwide. It is estimated that in the year 2050, there will be nearly 850 million adults with diabetes. (International Diabetes Federation, 2024) Diabetes is a chronic condition with an increase level of blood glucose. It is a multi-factorial disease that results from a complex interaction between genetic, environmental, and lifestyle choices. Therefore, it is important to understand the interplay between lifestyle choices and the diabetes.
+  </p>
+
+  <div style="
+      display:flex; 
+      flex-direction:column; 
+      align-items:center; 
+      gap:25px; 
+      padding:20px; 
+      background:#f9f9f9; 
+      border-radius:16px; 
+      box-shadow:0 6px 20px rgba(0,0,0,0.15);
+      max-width:950px; 
+      margin:auto;">
+      
+    <iframe 
+      src="r_mark/Final_Project_rf.html"
+      frameborder="0"
+      style="
+        width:100%; 
+        height:700px; 
+        border:none; 
+        border-radius:12px; 
+        box-shadow:0 4px 12px rgba(0,0,0,0.15);
+        transition:transform 0.3s, box-shadow 0.3s;">
+    </iframe>
+
+    <a href="r_mark/Final_Project_rf.html" 
+       target="_blank" 
+       style="
+          text-decoration:none; 
+          background-color:#004080; 
+          color:white; 
+          padding:12px 28px; 
+          border-radius:8px; 
+          font-weight:500; 
+          transition:background 0.3s;">
+      📄 View Full PDF
+    </a>
+  </div>
+
+</div>
+
+<!-- ===================== END OF Diabetes Classification PROJECT ===================== -->
+
+
+
+<!-- Footer to be included on every page -->
+<div class="footer">
+    <a href="mailto:thurahtoo.ath2010@gmail.com">Contact Me</a>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <span>Copyright © Thura</span>
+    <span>&nbsp;&nbsp;&nbsp;</span>
+    <a href="https://www.datascienceportfol.io/aungthurahtoo" target="_blank">Thura Portfolio</a>
+</div>
+
+</body>
+</html>
